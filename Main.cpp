@@ -10,43 +10,8 @@
 using namespace std;
 
 const int SIZE = 20;
-const int NumberOfStates = 4; //Количество состояний
-const int NumberOfCommands = 8; //Число действий/команд
-
-/*class Main {
-private:
-	int State;
-	char Sym;
-	char a[SIZE];
-	char b[SIZE];
-	int x, y;
-public:
-	
-	
-		void Print()
-	{
-		cout << "X= " << x << "/tY=" << y;
-	}
-	int GetX()
-	{
-		return x;
-	}
-	void SetX(int x)
-	{
-		this->x = x;
-	}
-	int GetY()
-	{
-		return y;
-	}
-	void SetY(int y)
-	{
-		this->y = y;
-	}
 
 
-};
-*/
 int main()
 {
 	ifstream in("input.txt");
