@@ -4,7 +4,6 @@
 
 #include <iostream>
 #include <string>
-#include <iomanip>
 #include <fstream>
 
 using namespace std;
@@ -16,7 +15,6 @@ int main()
 {
 	ifstream in("input.txt");
 	ofstream out("output.txt");
-	setlocale(LC_ALL, "russian");
 	int s = 1, number = 0;
 	char a, result[SIZE];
 	
@@ -108,6 +106,8 @@ int main()
 	}
 	for (int i = 0; i < number; i++)
 		out << result[i];
-	//system("PAUSE");
+	out << endl;
+	if (result[9] == 'A'|| result[19] == 'A'||result[29] == 'A')
+		out << "YES"; else out << "NO";
 	return 0;
 }
