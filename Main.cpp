@@ -3,13 +3,10 @@
 //Author Rafael Fazlyev
 
 #include <iostream>
-#include <string>
 #include <fstream>
-
 using namespace std;
 
 const int SIZE = 20;
-
 
 int main()
 {
@@ -107,7 +104,7 @@ int main()
 	for (int i = 0; i < number; i++)
 		out << result[i];
 	out << endl;
-	if (result[9] == 'A'|| result[19] == 'A'||result[29] == 'A')
+	if (result[9] == 'A' || result[19] == 'A' || result[29] == 'A')
 		out << "YES"; else out << "NO";
 	return 0;
 }
