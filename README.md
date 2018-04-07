@@ -14,4 +14,4 @@ B.
 такту автомат оказывается в том состоянии (ct принадлежит S), к которому приводит эта стрелка.
 Задание. 
 Построить программу, моделирующую работу конкретного автомата принадлежит и решающую для этого автомата задачу М.
-https://pp.userapi.com/c834204/v834204645/1104b9/qiCoCCsjn2k.jpg
+![Image alt](https://github.com/{Rafa198}/{SymulationOfTheAutomatMachine}/raw/{master}/{SymulationOfTheAutomatMachine}/qiCoCCsjn2k.jpg)
