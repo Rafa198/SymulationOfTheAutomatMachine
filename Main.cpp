@@ -1,7 +1,7 @@
 //Simulation of the Automatic Machine
 //03.03.2018
 //Author Rafael Fazlyev
-
+// //
 #include <iostream>
 #include <fstream>
 using namespace std;
