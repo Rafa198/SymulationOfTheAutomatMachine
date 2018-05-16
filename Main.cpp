@@ -33,7 +33,6 @@ int main()
 			{
 				result[number] = 'C';
 				s = 2;
-
 				break;
 			}
 			}
